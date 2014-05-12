@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Game</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="container" id='container'>
+		<div id='start'>
+			<form name=start onsubmit="run(); return false;">
+				<div id='selectimg'><img id='sowimg'></div>
+				<div class="result"><h1 id="result"> Fruit Game )</h1></div>
+				<select id="mySelect" name='select' onchange="changeImg()"></select>
+				<input type="submit" >
+			</form>
+		</div>
+		
+		<form name=game>
+			<div class="content">
+				<ul class="scroll">
+					<li><img src="img/SYM4.png" name=slot1></li>
+				</ul>
+				<ul class="scroll">
+					<li><img src="img/SYM3.png" name=slot2></li>
+				</ul>
+				<ul class="scroll">
+					<li><img src="img/SYM6.png" name=slot3></li>
+				</ul>
+				<div class="refresh" id="refresh" onclick="roll();"></div>
+			</div>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

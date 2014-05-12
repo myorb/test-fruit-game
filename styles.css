@@ -1,0 +1,53 @@
+.container {
+    height: 536px;
+    width: 960px;
+    /*background: url(/BG.png) repeat-y #fc0;*/
+    margin: 3em auto;
+}
+.content{
+    padding: 190px 0 0 60px;
+}
+.scroll{
+    display: inline-table;
+    list-style: none outside none;
+    margin: 1px;
+    padding: 1px;
+}
+.refresh{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 0 29px 35px;
+}
+.result{
+    width: 221px;
+    height: 149px;
+    /* background: url(img/Bet_Line.png) no-repeat; */
+    float: right; 
+    /*margin: 20px 24px 0 0;*/
+    display: inline-block;
+}
+#start{
+    width: 960px;
+    height: 536px;
+    position: absolute;
+    background: #ccc;
+    margin: 0 auto;
+}
+#selectimg{
+    border: solid black 1px;
+    /* width: auto; */
+    padding: 10px;
+    display: inline-block;
+    margin: 120px;
+    border-radius: 5px;
+    background: #fff;
+}
+#result{
+    color: orange;
+    -moz-transform: rotate(45deg);  /* Firefox */
+    -o-transform: rotate(45deg);  /* Opera */
+    -webkit-transform: rotate(45deg);  /* Safari y Chrome */
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE */
+    padding: 46px;
+}
